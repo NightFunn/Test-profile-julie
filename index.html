@@ -1,41 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile | Mr. Ramel</title>
-
-  <!-- css link -->
-  <link rel="stylesheet" href="style.css">
-
-  <!-- font awesome cdn -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-</head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamer TikTok Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-  <div class="card">
-    <button class="mail">
-      <i class="fa-regular fa-envelope"></i>
-    </button>
-    <div class="profile-pic">
-        <img src="profile.png" alt="" width="50" height="50">
-    </div>
-    <div class="bottom">
-        <div class="content">
-            <span class="name">My Name</span>
-            <span class="about-me">Lorem ipsum dolor sit amet consectetur adipisicinFcls </span>
-        </div>
-       <div class="bottom-bottom">
-        <div class="social-links-container">
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-        <button class="button">Contact Me</button>
-       </div>
-    </div>
-</div>
+    <header>
+        <h1>Streamer Name</h1>
+        <p>Chào mừng đến với trang profile TikTok của tôi!</p>
+    </header>
 
-  
+    <main>
+        <section id="about">
+            <h2>Giới Thiệu</h2>
+            <p>Tôi là một streamer chuyên về game XYZ trên TikTok. Hãy theo dõi để không bỏ lỡ những khoảnh khắc thú vị!</p>
+        </section>
+
+        <section id="tiktok-videos">
+            <h2>Video TikTok Gần Đây</h2>
+            <div class="video">
+                <h3>Video 1</h3>
+                <iframe src="https://www.tiktok.com/embed/yourvideo1" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <h3>Video 2</h3>
+                <iframe src="https://www.tiktok.com/embed/yourvideo2" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="banking">
+            <h2>Mã QR Banking</h2>
+            <img src="your-qr-code.png" alt="Mã QR Banking" class="qr-code">
+            <p>Quét mã QR để ủng hộ tôi!</p>
+        </section>
+
+        <section id="discord">
+            <h2>Tham Gia Discord</h2>
+            <p>Hãy tham gia cộng đồng của tôi trên Discord!</p>
+            <a href="https://discord.gg/yourdiscordlink" target="_blank" class="discord-link">Tham Gia Ngay</a>
+        </section>
+
+        <section id="social-media">
+            <h2>Mạng Xã Hội</h2>
+            <ul>
+                <li><a href="https://www.tiktok.com/@yourprofile" target="_blank">TikTok</a></li>
+                <li><a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a></li>
+                <li><a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Streamer Name. Tất cả quyền được bảo lưu.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
