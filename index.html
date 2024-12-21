@@ -2,67 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> <!-- Fonts -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- Boxicons -->
-  <link rel="stylesheet" href="style.css"> <!-- CSS -->
-  <title>Profile Card UI</title>
-</head>
+  <title>Profile | Mr. Ramel</title>
+
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head> 
 <body>
-<div class="container">
-<div class="card">
-  <i id="theme-toggle" class='bx bxs-moon theme__toggle'></i>
-  <img src="profile.jpg" alt="" class="card__image">
-<div class="card__body">
-  <h2 class="card__name">John William</h2>
-  <span class="card__occupation">Frontend Developer</span>
-<ul class="social__list">
-  <li class="social__item">
-   <a href="#" class="social__link">
-     <i class='bx bxl-youtube'></i>
-   </a>
-  </li>
-  <li class="social__item">
-   <a href="#" class="social__link">
-    <i class='bx bxl-linkedin'></i>
-   </a>
-  </li>
-  <li class="social__item">
-   <a href="#" class="social__link">
-     <i class='bx bxl-instagram'></i>
-   </a>
-  </li>
-  <li class="social__item">
-   <a href="#" class="social__link">
-     <i class='bx bxl-github'></i>
-   </a>
-  </li>
-</ul>
-<a href="#" class="card__button">
-   Follow me <i class='bx bx-user'></i>
-</a>
+  <div class="card">
+    <button class="mail">
+      <i class="fa-regular fa-envelope"></i>
+    </button>
+    <div class="profile-pic">
+        <img src="profile.png" alt="" width="50" height="50">
+    </div>
+    <div class="bottom">
+        <div class="content">
+            <span class="name">My Name</span>
+            <span class="about-me">Lorem ipsum dolor sit amet consectetur adipisicinFcls </span>
+        </div>
+       <div class="bottom-bottom">
+        <div class="social-links-container">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <button class="button">Contact Me</button>
+       </div>
+    </div>
 </div>
-<div class="card__footer">
-<div class="card__data">
-  <h3 class="card__title">Projects</h3>
-  <span class="card__number">150+</span>
-</div>
-<div class="card__data">
-  <h3 class="card__title">Followers</h3>
-  <span class="card__number">9.8k</span>
-</div>
-<div class="card__data">
-  <h3 class="card__title">Following</h3>
-  <span class="card__number">10</span>
-</div>
-</div>
-</div>
-</div>
-                   <!--Js-->
- <script src="script.js"></script>
+
+  
 </body>
 </html>
-
